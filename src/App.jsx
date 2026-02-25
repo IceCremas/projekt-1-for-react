@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Counter from './Counter'
 import Mycompoment from './Mycompoment'
+import FriendsList from './addFriends'
 
 
 function App() {
@@ -29,7 +30,8 @@ function App() {
         </p>
       </div>
       <Mycompoment />
-      <Counter></Counter>
+      <Counter />
+      <FriendsList /> 
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
